@@ -22,3 +22,4 @@ production:
   database: todo
   username: <%= ENV['MONGO_USERNAME'] %>
   password: <%= ENV['MONGO_PASSWORD'] %>
+  uri: <%= ENV['MONGODB_URI'] %>
